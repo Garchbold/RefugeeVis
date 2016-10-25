@@ -38,6 +38,8 @@
     var info = null;
     var geojson;
 
+    var graphcountries = [];
+
     var units={"Population": "people", "GDP": "millions of dollars", "Label Rank": "rank"};
     var legend_units={"Population": [1000000, 2500000, 5000000, 10000000, 25000000, 50000000, 100000000], "GDP": [10000, 50000, 100000, 250000, 500000], "Label Rank": [1, 2, 3]};
 
@@ -66,8 +68,12 @@
     }
 
     function highlightFeature(e) {
+        
         var layer = e.target;
-        console.log(layer);
+
+        if(e.target == undefined){
+            layer = e;
+        }
 
         layer.setStyle({
             weight: 5,
@@ -85,19 +91,30 @@
 
 
     function resetHighlight(e) {
-        geojson.resetStyle(e.target);
-        info.update();
+        if(graphcountries.indexOf(e.target.feature.properties.name) == -1){
+            geojson.resetStyle(e.target);
+            info.update();
+        }
     }
 
-    function zoomToFeature(e) {
-        map.fitBounds(e.target.getBounds());
+    function addToList(e) {
+        if(graphcountries.indexOf(e.target.feature.properties.name) == -1){
+            graphcountries.push(e.target.feature.properties.name);
+            highlightFeature(e);
+        }
+        else{
+            graphcountries.splice(graphcountries.indexOf(e.target.feature.properties.name), 1);
+            resetHighlight(e);
+        }
+        graphReload();
+
     }
 
     function onEachFeature(feature, layer) {
         layer.on({
             mouseover: highlightFeature,
             mouseout: resetHighlight,
-            click: zoomToFeature
+            click: addToList
         });
     }
 
@@ -106,21 +123,128 @@
     }
 
 
+    function graphReload(){
 
-    $('input[type=radio][name=options]').change(function() {
+        if(map != null){
+            $('#graph').empty();
+        }
+
+        //BUILD THE GRAPH
+        var margin = {top: 20, right: 20, bottom: 70, left: 40},
+            width = 600 - margin.left - margin.right,
+            height = 300 - margin.top - margin.bottom;
+
+
+        // set the ranges
+        var x = d3.scale.ordinal().rangeRoundBands([0, width], .05);
+
+        var y = d3.scale.linear().range([height, 0]);
+
+        // define the axis
+        var xAxis = d3.svg.axis()
+            .scale(x)
+            .orient("bottom")
+
+
+        var yAxis = d3.svg.axis()
+            .scale(y)
+            .orient("left")
+            .ticks(10);
+
+
+        // add the SVG element
+        svg = d3.select("#graph").append("svg")
+            .attr("width", width + margin.left + margin.right)
+            .attr("height", height + margin.top + margin.bottom)
+            .append("g")
+            .attr("transform", 
+                  "translate(" + margin.left + "," + margin.top + ")");
+
+            
+        // scale the range of the data
+        countries = geo.features.map(function(d){
+            if(graphcountries.indexOf(d.properties.name) != -1){
+                return d;
+            }
+            else{
+                return null;
+            }
+        });
+
+        filteredCountries = countries.filter(function(e){
+            return (e != null)
+        });
+
+        filteredCountries = filteredCountries.sort(function(a,b){return a.properties[option_data]-b.properties[option_data];});
+
+        x.domain(filteredCountries.map(function(d){
+            if(graphcountries.indexOf(d.properties.name) != -1){
+                return d.properties.name
+            }
+        }));
+
+        y.domain([0, d3.max(filteredCountries, function(d) {
+            if(graphcountries.indexOf(d.properties.name) != -1){
+                 return d.properties[option_data]; 
+            }
+          })
+        ]);
+
+
+
+
+          // add axis
+          svg.append("g")
+              .attr("class", "x axis")
+              .attr("transform", "translate(0," + height + ")")
+              .call(xAxis)
+              .selectAll("text")
+              .style("text-anchor", "end")
+              .attr("dx", "-0.8em")
+              .attr("dy", "-.55em")
+              .attr("transform", "rotate(-90)" );
+
+          svg.append("g")
+              .attr("class", "y axis")
+              .call(yAxis)
+            .append("text")
+              .attr("transform", "rotate(-90)")
+              .attr("y", 5)
+              .attr("dy", ".71em")
+              .style("text-anchor", "end")
+              .text(option);
+
+
+
+
+          // Add bar chart
+          svg.selectAll("bar")
+            .data(filteredCountries)
+            .enter().append("rect")
+            .attr("class", "bar")
+            .attr("x", function(d) { return x(d.properties.name); })
+            .attr("width", x.rangeBand())
+            .attr("y", function(d) { return y(d.properties[option_data]); })
+            .attr("height", function(d) { return height - y(d.properties[option_data]); });
+
+    }
+
+
+    function mapReload() {
         if(map != null){
             map.off();
             map.remove();
             $('#graph').empty();
         }
 
-        option = this.value;
-        option_data = $(this).attr("data_value");
-        console.log(this);
-
-
+        if(this.external == undefined){
+            console.log(this);
+            option = this.value;
+            option_data = $(this).attr("data_value");            
+        }
 
         map = L.map('map').setView([52.804880, 21.176154], 3);
+
 
         L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=sk.eyJ1IjoianBlZyIsImEiOiJjaXVjZnlvc2cwMDBqMnpveXplNTdxdWUzIn0.ByyTBkf3v_SLSfICuPa5Ww', {
             maxZoom: 18,
@@ -172,7 +296,6 @@
         };
 
         info.update = function (props) {
-            console.log(props);
             this._div.innerHTML = '<h4>'+ option +'</h4>' +  (props ?
                 '<b>' + props.name + '</b><br />' + numberWithCommas(props[option_data]) + ' ' +units[option]
                 : 'Hover over a country');
@@ -181,74 +304,18 @@
         info.addTo(map);
 
 
-        //BUILD THE MAP
-        var margin = {top: 20, right: 20, bottom: 70, left: 40},
-            width = 600 - margin.left - margin.right,
-            height = 300 - margin.top - margin.bottom;
+        map.eachLayer(function(e){
+            if(e.feature != undefined){
+                if(graphcountries.indexOf(e.feature.properties.name) != -1 ){
+                    highlightFeature(e);
+
+                }
+            }
+        });
+    }
 
 
-        // set the ranges
-        var x = d3.scale.ordinal().rangeRoundBands([0, width], .05);
-
-        var y = d3.scale.linear().range([height, 0]);
-
-        // define the axis
-        var xAxis = d3.svg.axis()
-            .scale(x)
-            .orient("bottom")
-
-
-        var yAxis = d3.svg.axis()
-            .scale(y)
-            .orient("left")
-            .ticks(10);
-
-
-        // add the SVG element
-        svg = d3.select("#graph").append("svg")
-            .attr("width", width + margin.left + margin.right)
-            .attr("height", height + margin.top + margin.bottom)
-          .append("g")
-            .attr("transform", 
-                  "translate(" + margin.left + "," + margin.top + ")");
-
-            
-          // scale the range of the data
-          x.domain(geo.features.map(function(d){return d.properties.name}));
-          y.domain([0, d3.max(geo.features, function(d) { return d.properties[option_data]; })]);
-
-          // add axis
-          svg.append("g")
-              .attr("class", "x axis")
-              .attr("transform", "translate(0," + height + ")")
-              .call(xAxis)
-            .selectAll("text")
-              .style("text-anchor", "end")
-              .attr("dx", "-0.8em")
-              .attr("dy", "-.55em")
-              .attr("transform", "rotate(-90)" );
-
-          svg.append("g")
-              .attr("class", "y axis")
-              .call(yAxis)
-            .append("text")
-              .attr("transform", "rotate(-90)")
-              .attr("y", 5)
-              .attr("dy", ".71em")
-              .style("text-anchor", "end")
-              .text(option);
-
-          // Add bar chart
-          svg.selectAll("bar")
-            .data(geo.features)
-            .enter().append("rect")
-            .attr("class", "bar")
-            .attr("x", function(d) { return x(d.properties.name); })
-            .attr("width", x.rangeBand())
-            .attr("y", function(d) { return y(d.properties[option_data]); })
-            .attr("height", function(d) { return height - y(d.properties[option_data]); });
-
-    });
+    $('input[type=radio][name=options]').change(function(){ mapReload(); graphReload(); });
 
     $('#population').click();
 
