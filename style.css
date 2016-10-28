@@ -22,7 +22,7 @@
 	width: 0vw; 
 	height: 0vh; 
 	position:fixed; 
-	top: 10vh; 
+	top: 28vh; 
 	left: 320px; 
 	z-index:100; 
 	background-color: white; 
@@ -31,6 +31,10 @@
     -o-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
+}
+
+#graph > svg {
+    padding: 0 30px;
 }
 
 .bar{
