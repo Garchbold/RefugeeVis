@@ -1,193 +1,192 @@
-"Extracted from the UNHCR Population Statistics Reference Database","United Nations High Commissioner for Refugees"
-"Date extracted: 2016-10-26 15:37:10 +02:00"
-
-Year,"Country / territory of asylum/residence",Origin,"RSD procedure type / level","Total persons pending start-year","of which UNHCR-assisted","Applied during year",statistics.filter.decisions_recognized,statistics.filter.decisions_other,Rejected,"Otherwise closed","Total decisions","Total persons pending end-year","of which UNHCR-assisted"
-2015,Zimbabwe,"Syrian Arab Rep.","G / FI",0,0,*,,0,0,*,*,0,0
-2015,Zambia,"Syrian Arab Rep.","G / FI",9,9,5,*,0,*,0,6,8,8
-2015,"South Africa","Syrian Arab Rep.","G / AR",*,0,*,,,,,,*,0
-2015,"South Africa","Syrian Arab Rep.","G / FI",36,*,27,*,,7,,10,53,5
-2015,Yemen,"Syrian Arab Rep.","U / FI",1039,1039,*,*,0,,421,425,615,615
-2015,"Venezuela (Bolivarian Republic of)","Syrian Arab Rep.","G / FI",*,*,*,,,,,,*,*
-2015,"United States of America","Syrian Arab Rep.","G / EO",488,,110,104,,26,62,192,654,
-2015,"United States of America","Syrian Arab Rep.","G / IN",2109,,1004,581,,34,162,777,2464,
-2015,Uruguay,"Syrian Arab Rep.","G / FI",11,11,9,10,0,0,*,11,9,5
-2015,Ireland,"Syrian Arab Rep.",,,,*,,,,,,,0
-2015,Ukraine,"Syrian Arab Rep.","U / FI",*,*,27,9,,0,7,16,12,12
-2015,Ukraine,"Syrian Arab Rep.","G / JR",157,123,143,90,,19,*,111,189,183
-2015,Ukraine,"Syrian Arab Rep.","G / FI",436,313,136,5,58,134,10,207,365,268
-2015,Uganda,"Syrian Arab Rep.","G / FA",13,13,5,*,0,*,0,7,11,11
-2015,Turkey,"Syrian Arab Rep.","U / RA",,,*,,,,*,*,0,0
-2015,Turkey,"Syrian Arab Rep.","U / AR",14,14,,,,,,,14,14
-2015,Turkey,"Syrian Arab Rep.","U / FI",283,283,,,,,,,283,283
-2015,"Trinidad and Tobago","Syrian Arab Rep.","U / AR",*,*,,,,*,,*,0,
-2015,"Trinidad and Tobago","Syrian Arab Rep.","U / FI",7,7,37,19,,,,19,25,25
-2015,Thailand,"Syrian Arab Rep.","U / RA",,,*,,,,,,*,*
-2015,Thailand,"Syrian Arab Rep.","U / FI",168,168,177,36,,,66,102,243,243
-2015,Togo,"Syrian Arab Rep.","G / FI",6,6,*,*,,,,*,6,6
-2015,Chad,"Syrian Arab Rep.","G / FA",20,20,7,5,,,,5,22,22
-2015,"Sint Maarten (Dutch part)","Syrian Arab Rep.","U / FI",,,*,,,,,,*,*
-2015,Sweden,"Syrian Arab Rep.","G / AR",209,0,702,0,9,607,78,694,216,0
-2015,Sweden,"Syrian Arab Rep.","G / RA",122,0,442,23,235,*,74,333,356,0
-2015,Sweden,"Syrian Arab Rep.","G / FI",18680,0,50891,1903,16383,37,2046,20369,48714,0
-2015,Slovenia,"Syrian Arab Rep.","G / RA",,,*,,,,,,,
-2015,Slovenia,"Syrian Arab Rep.","G / FI",8,,16,*,9,*,5,16,9,0
-2015,Slovakia,"Syrian Arab Rep.","G / RA",,,*,,,,,,,
-2015,Slovakia,"Syrian Arab Rep.","G / FI",,,6,,7,*,7,17,,0
-2015,"South Sudan","Syrian Arab Rep.","U / FI",*,*,*,*,,,0,*,0,0
-2015,"Serbia and Kosovo (S/RES/1244 (1999))","Syrian Arab Rep.","G / FI",237,237,301533,*,*,,301764,301770,0,
-2015,Somalia,"Syrian Arab Rep.","U / FI",63,63,39,*,,,,*,101,101
-2015,"El Salvador","Syrian Arab Rep.","G / FI",,,9,5,,,*,9,0,0
-2015,Senegal,"Syrian Arab Rep.","G / FA",21,21,,,,,,,21,21
-2015,Sudan,"Syrian Arab Rep.","G / FI",14,14,195,0,*,0,*,*,205,205
-2015,Sudan,"Syrian Arab Rep.","U / FI",224,224,110,11,0,0,*,12,322,322
-2015,"Saudi Arabia","Syrian Arab Rep.","U / FI",12,12,,,,,12,12,0,0
-2015,"Russian Federation","Syrian Arab Rep.","G / TA",164,164,1124,0,695,395,0,1090,198,198
-2015,"Russian Federation","Syrian Arab Rep.","G / FI",249,249,337,0,0,391,0,391,195,195
-2015,Romania,"Syrian Arab Rep.","G / JR",*,*,,,*,*,,*,,
-2015,Romania,"Syrian Arab Rep.","G / RA",,,5,,,,,,,
-2015,Romania,"Syrian Arab Rep.","G / FI",112,112,541,144,195,229,8,576,96,96
-2015,Paraguay,"Syrian Arab Rep.","G / FI",9,,55,27,,10,,37,27,16
-2015,Portugal,"Syrian Arab Rep.","G / FI",,,,,,,,,15,
-2015,Poland,"Syrian Arab Rep.","G / RA",,,9,,,,,,,
-2015,Poland,"Syrian Arab Rep.","G / FI",34,,286,203,*,*,90,297,36,
-2015,"Papua New Guinea","Syrian Arab Rep.","G / FI",*,0,0,*,,0,,*,*,
-2015,Philippines,"Syrian Arab Rep.","G / FI",35,0,22,17,,,0,17,40,0
-2015,Peru,"Syrian Arab Rep.","G / FI",*,,9,9,,,,9,*,*
-2015,Pakistan,"Syrian Arab Rep.","U / FI",*,*,11,*,,0,,*,9,9
-2015,Oman,"Syrian Arab Rep.","U / FI",6,6,0,,,,*,*,5,5
-2015,"New Zealand","Syrian Arab Rep.","G / FI",6,0,13,16,,0,,16,*,0
-2015,Nauru,"Syrian Arab Rep.","G / FI",8,0,0,*,,0,,*,*,0
-2015,Norway,"Syrian Arab Rep.","G / RA",0,0,19,6,*,*,*,12,13,0
-2015,Norway,"Syrian Arab Rep.","G / AR",49,0,265,6,15,235,9,265,46,0
-2015,Norway,"Syrian Arab Rep.","G / FI",779,0,10517,1354,188,7,659,2208,9069,0
-2015,Netherlands,"Syrian Arab Rep.","G / RA",6,,54,9,,29,,38,6,
-2015,Netherlands,"Syrian Arab Rep.","G / FI",2317,,18677,7601,114,577,231,8523,12712,
-2015,Nigeria,"Syrian Arab Rep.","G / FI",17,17,45,20,,,*,21,41,41
-2015,Niger,"Syrian Arab Rep.","G / AR",*,*,,,,,,,*,*
-2015,Niger,"Syrian Arab Rep.","G / FI",0,0,*,,,*,,*,0,0
-2015,Malaysia,"Syrian Arab Rep.","U / AR",7,7,,,,*,6,7,0,0
-2015,Malaysia,"Syrian Arab Rep.","U / FI",523,523,511,54,,,151,205,829,829
-2015,Mauritania,"Syrian Arab Rep.","U / FA",54,54,239,184,,,*,186,107,107
-2015,Montenegro,"Syrian Arab Rep.","G / FA",36,36,996,14,0,0,1018,1032,0,0
-2015,Malta,"Syrian Arab Rep.","G / AR",,,17,6,*,6,,13,*,
-2015,Malta,"Syrian Arab Rep.","G / FI",34,,398,17,265,*,16,299,156,0
-2015,Mali,"Syrian Arab Rep.","G / FI",*,*,66,58,,,,58,9,9
-2015,"The former Yugoslav Republic of Macedonia","Syrian Arab Rep.","G / FA",654,654,997,*,,*,1644,1648,*,*
-2015,Mexico,"Syrian Arab Rep.","G / FI",,,7,5,,,*,7,0,0
-2015,"Rep. of Moldova","Syrian Arab Rep.","G / FI",22,22,55,20,37,*,10,69,8,8
-2015,Morocco,"Syrian Arab Rep.","U / FI",*,*,0,*,0,0,0,*,0,0
-2015,"China, Macao SAR","Syrian Arab Rep.","G / FI",*,0,,,,,,,*,0
-2015,Latvia,"Syrian Arab Rep.","G / FI",17,0,6,0,13,0,7,20,*,0
-2015,Luxembourg,"Syrian Arab Rep.","G / RA",,0,,,,,,,,0
-2015,Luxembourg,"Syrian Arab Rep.","G / AR",*,0,10,,,,8,8,*,0
-2015,Luxembourg,"Syrian Arab Rep.","G / FI",59,0,630,79,,*,20,100,588,0
-2015,Lithuania,"Syrian Arab Rep.","G / FI",*,0,6,*,*,0,*,5,5,0
-2015,"Sri Lanka","Syrian Arab Rep.","U / FI",5,5,7,*,,,,*,11,11
-2015,Liechtenstein,"Syrian Arab Rep.","G / FI",,0,*,,,,,,*,0
-2015,"Saint Lucia","Syrian Arab Rep.","U / FI",,,*,,,,*,*,*,*
-2015,Libya,"Syrian Arab Rep.","U / FI",18556,18556,35,,,,,,18591,18591
-2015,Liberia,"Syrian Arab Rep.","J / FI",*,*,*,,,,,,*,*
-2015,Lebanon,"Syrian Arab Rep.","U / AR",*,*,*,*,,,,*,*,*
-2015,Lebanon,"Syrian Arab Rep.","U / FI",413,413,9059,9062,,,399,9461,11,11
-2015,Kuwait,"Syrian Arab Rep.","U / FI",7,7,,*,,,,*,6,6
-2015,"Rep. of Korea","Syrian Arab Rep.","G / FA",64,19,404,*,142,,5,148,320,55
-2015,Cambodia,"Syrian Arab Rep.","G / FI",*,*,*,,,,*,*,*,*
-2015,Kyrgyzstan,"Syrian Arab Rep.","U / AR",*,*,0,0,0,0,*,*,0,0
-2015,Kyrgyzstan,"Syrian Arab Rep.","G / FI",16,16,12,8,,5,10,23,5,5
-2015,Kyrgyzstan,"Syrian Arab Rep.","U / FI",0,0,9,*,0,0,*,*,7,7
-2015,Kenya,"Syrian Arab Rep.","J / FI",5,5,19,*,,,14,16,8,8
-2015,Kazakhstan,"Syrian Arab Rep.","G / AR",24,24,*,,,,9,9,16,16
-2015,Kazakhstan,"Syrian Arab Rep.","U / FI",*,*,5,7,,,*,9,0,0
-2015,Kazakhstan,"Syrian Arab Rep.","G / FI",,,15,6,,9,,15,0,0
-2015,Japan,"Syrian Arab Rep.","G / FI",6,*,5,*,5,*,,9,,0
-2015,Jordan,"Syrian Arab Rep.","U / AR",0,0,*,0,0,0,*,*,0,0
-2015,Jordan,"Syrian Arab Rep.","U / FI",0,0,7413,7367,0,0,46,7413,0,0
-2015,Jamaica,"Syrian Arab Rep.","U / FI",,,*,,,,,,*,*
-2015,Italy,"Syrian Arab Rep.","G / FI",331,0,506,255,73,253,*,583,246,
-2015,Iceland,"Syrian Arab Rep.","G / FI",*,0,29,6,11,0,12,29,*,0
-2015,Iraq,"Syrian Arab Rep.","U / FI",1225,1225,,*,394,,828,1225,0,0
-2015,Ireland,"Syrian Arab Rep.","G / AR",*,,0,0,,*,0,*,0,0
-2015,Ireland,"Syrian Arab Rep.","G / SP",*,,*,*,,0,*,*,*,0
-2015,Ireland,"Syrian Arab Rep.","G / FI",7,,74,24,,0,9,33,50,0
-2015,India,"Syrian Arab Rep.","U / FI",18,18,21,17,0,0,*,19,20,20
-2015,Indonesia,"Syrian Arab Rep.","U / AR",*,*,,,,*,,*,0,0
-2015,Indonesia,"Syrian Arab Rep.","U / FI",42,42,20,19,,,11,30,32,32
-2015,Hungary,"Syrian Arab Rep.","G / RA",,,64081,,,,,,,
-2015,Hungary,"Syrian Arab Rep.","G / FI",823,,64587,19,140,108,46902,47169,18607,685
-2015,Haiti,"Syrian Arab Rep.","U / FI",,,*,,,,,,*,
-2015,Croatia,"Syrian Arab Rep.","G / FI",6,6,24,,*,*,22,26,*,*
-2015,"China, Hong Kong SAR","Syrian Arab Rep.","U / FI",*,0,,,,,,,*,0
-2015,Grenada,"Syrian Arab Rep.","U / FI",,,*,*,,,,*,0,0
-2015,Greece,"Syrian Arab Rep.","G / RA",,,177,,,,,,,
-2015,Greece,"Syrian Arab Rep.","G / AR",7,,*,*,,*,,*,*,
-2015,Greece,"Syrian Arab Rep.","G / FI",175,,3316,2779,7,6,277,3069,445,
-2015,Ghana,"Syrian Arab Rep.","G / FI",73,73,20,42,,*,,44,49,49
-2015,Georgia,"Syrian Arab Rep.","G / JR",*,*,*,,*,*,,*,*,*
-2015,Georgia,"Syrian Arab Rep.","G / FI",30,30,20,5,22,9,9,45,5,5
-2015,"United Kingdom","Syrian Arab Rep.","G / AR",,,190,34,,55,*,92,,
-2015,"United Kingdom","Syrian Arab Rep.","G / RA",,,6,0,0,0,*,*,,
-2015,"United Kingdom","Syrian Arab Rep.","G / FI",1329,,2846,2011,42,213,250,2516,1648,
-2015,Gabon,"Syrian Arab Rep.","G / FA",*,*,*,,*,,,*,*,*
-2015,France,"Syrian Arab Rep.","G / RA",,,12,,,,,,,
-2015,France,"Syrian Arab Rep.","G / AR",80,,278,90,6,104,10,210,169,
-2015,France,"Syrian Arab Rep.","G / FI",1159,,5124,1587,735,74,,2396,2542,
-2015,Finland,"Syrian Arab Rep.","G / RA",,0,*,0,0,0,0,,0,0
-2015,Finland,"Syrian Arab Rep.","G / FI",55,0,836,106,21,*,55,184,705,0
-2015,Ethiopia,"Syrian Arab Rep.","J / FI",8,8,16,9,,,,9,15,15
-2015,Estonia,"Syrian Arab Rep.","G / FI",*,0,9,0,0,13,*,14,0,0
-2015,Spain,"Syrian Arab Rep.","G / FI",781,,5724,,,,,,3280,
-2015,Egypt,"Syrian Arab Rep.","U / FI",,,2415,2415,,,,2415,0,
-2015,Algeria,"Syrian Arab Rep.","U / RA",9,9,12,,,,*,*,17,17
-2015,Algeria,"Syrian Arab Rep.","U / FI",4099,4099,2111,,,,16,16,6194,6194
-2015,"Dominican Rep.","Syrian Arab Rep.","G / FI",*,*,5,,,,5,5,*,*
-2015,Denmark,"Syrian Arab Rep.","G / AR",80,0,115,42,*,102,,148,30,0
-2015,Denmark,"Syrian Arab Rep.","G / FI",1388,0,8608,4167,1550,111,,5828,795,0
-2015,Djibouti,"Syrian Arab Rep.","G / FI",*,*,*,*,,,*,7,0,0
-2015,Germany,"Syrian Arab Rep.","G / JR",8393,,,227,15,50,3546,3838,3670,0
-2015,Germany,"Syrian Arab Rep.","G / RA",850,,3853,3481,85,*,116,3683,1553,
-2015,Germany,"Syrian Arab Rep.","G / NA",20348,0,158657,97656,197,22,4062,101937,76359,0
-2015,"Czech Rep.","Syrian Arab Rep.","G / RA",,,5,,,,,,,
-2015,"Czech Rep.","Syrian Arab Rep.","G / FI",55,0,129,29,101,,20,150,42,0
-2015,Cyprus,"Syrian Arab Rep.","G / RA",,,42,,,,,,42,
-2015,Cyprus,"Syrian Arab Rep.","U / FA",*,*,50,54,,,,54,0,
-2015,Cyprus,"Syrian Arab Rep.","G / AR",276,,29,14,202,*,23,243,62,*
-2015,Cyprus,"Syrian Arab Rep.","G / FI",1069,,908,33,1356,,100,1489,488,135
-2015,"Cayman Islands","Syrian Arab Rep.","G / FI",,,*,*,,,,*,0,0
-2015,Curaçao,"Syrian Arab Rep.","U / FI",,,*,,,,,,*,*
-2015,Cuba,"Syrian Arab Rep.","U / FA",0,0,26,22,,,*,26,0,0
-2015,"Costa Rica","Syrian Arab Rep.","G / FI",*,*,*,*,,,,*,*,*
-2015,Colombia,"Syrian Arab Rep.","G / FI",*,*,7,*,,,6,9,0,0
-2015,Congo,"Syrian Arab Rep.","G / FA",,,8,*,,,,*,*,*
-2015,"Dem. Rep. of the Congo","Syrian Arab Rep.","G / FI",*,*,5,7,0,0,0,7,0,0
-2015,Cameroon,"Syrian Arab Rep.","U / RA",,,*,,,,,,*,*
-2015,Cameroon,"Syrian Arab Rep.","U / FI",11,11,11,13,,,*,15,7,7
-2015,"Côte d'Ivoire","Syrian Arab Rep.","J / FA",16,16,9,17,,,,17,8,8
-2015,China,"Syrian Arab Rep.","U / FI",*,*,32,9,,,,9,24,24
-2015,Chile,"Syrian Arab Rep.","G / FI",10,6,8,7,,,,7,11,*
-2015,Switzerland,"Syrian Arab Rep.","G / FI",3309,0,4745,1309,1972,421,122,3824,4462,0
-2015,Canada,"Syrian Arab Rep.","G / AR",7,,9,*,,8,,10,8,
-2015,Canada,"Syrian Arab Rep.","G / FI",177,,544,551,,13,6,570,227,
-2015,"Central African Rep.","Syrian Arab Rep.","G / FI",8,8,,,,,,,8,8
-2015,Brazil,"Syrian Arab Rep.","G / FI",76,76,1610,532,,0,,532,1154,592
-2015,"Bolivia (Plurinational State of)","Syrian Arab Rep.","G / FI",,,*,*,,,,*,0,
-2015,Belarus,"Syrian Arab Rep.","G / JR",0,0,*,0,0,0,*,*,0,0
-2015,Belarus,"Syrian Arab Rep.","G / FI",48,42,103,16,50,22,56,144,7,7
-2015,"Bosnia and Herzegovina","Syrian Arab Rep.","G / FI",*,*,5,,*,,,*,*,*
-2015,Bulgaria,"Syrian Arab Rep.","G / RA",,,33,,,,,,,
-2015,Bulgaria,"Syrian Arab Rep.","G / FI",2510,2510,5950,4520,802,66,2042,7430,1683,1683
-2015,Belgium,"Syrian Arab Rep.","G / JR",,0,23,*,,15,*,21,6,0
-2015,Belgium,"Syrian Arab Rep.","G / RA",,,122,,,,8,8,,
-2015,Belgium,"Syrian Arab Rep.","G / FI",727,0,10293,3443,430,57,27,3957,3864,0
-2015,Azerbaijan,"Syrian Arab Rep.","G / FI",0,0,5,0,0,*,0,*,*,*
-2015,Azerbaijan,"Syrian Arab Rep.","U / FI",7,7,6,6,,0,0,6,7,7
-2015,Austria,"Syrian Arab Rep.","G / RA",,,195,,,,,,,
-2015,Austria,"Syrian Arab Rep.","G / FA",4872,,24352,8114,183,752,1213,10262,18669,0
-2015,Australia,"Syrian Arab Rep.","G / AR",*,0,*,0,,*,*,*,*,0
-2015,Australia,"Syrian Arab Rep.","G / FI",180,0,87,*,,113,7,123,129,0
-2015,"Antigua and Barbuda","Syrian Arab Rep.","J / FI",,,15,15,,,,15,0,0
-2015,Armenia,"Syrian Arab Rep.","U / FI",,,*,,,,,,*,*
-2015,Armenia,"Syrian Arab Rep.","G / FI",9,9,103,87,,,14,101,11,11
-2015,Argentina,"Syrian Arab Rep.","G / FI",22,,159,55,,19,9,83,98,9
-2015,"United Arab Emirates","Syrian Arab Rep.","U / AR",12,12,121,18,,,6,24,109,109
-2015,Albania,"Syrian Arab Rep.","G / FI",8,8,71,,,,79,79,0,0
-2015,Anguilla,"Syrian Arab Rep.","J / FI",,,*,*,,,,*,0,
+Extracted from the UNHCR Population Statistics Reference Database,United Nations High Commissioner for Refugees,,,,,,,,,,,,
+Date extracted: 2016-10-26 15:37:10 +02:00,,,,,,,,,,,,,
+Year,Country / territory of asylum/residence,Origin,RSD procedure type / level,Total persons pending start-year,of which UNHCR-assisted,Applied during year,statistics.filter.decisions_recognized,statistics.filter.decisions_other,Rejected,Otherwise closed,Total decisions,Total persons pending end-year,of which UNHCR-assisted
+2015,Zimbabwe,Syrian Arab Rep.,G / FI,0,0,*,,0,0,*,*,0,0
+2015,Zambia,Syrian Arab Rep.,G / FI,9,9,5,*,0,*,0,6,8,8
+2015,South Africa,Syrian Arab Rep.,G / AR,*,0,*,,,,,,*,0
+2015,South Africa,Syrian Arab Rep.,G / FI,36,*,27,*,,7,,10,53,5
+2015,Yemen,Syrian Arab Rep.,U / FI,1039,1039,*,*,0,,421,425,615,615
+2015,Venezuela (Bolivarian Republic of),Syrian Arab Rep.,G / FI,*,*,*,,,,,,*,*
+2015,United States of America,Syrian Arab Rep.,G / EO,488,,110,104,,26,62,192,654,
+2015,United States of America,Syrian Arab Rep.,G / IN,2109,,1004,581,,34,162,777,2464,
+2015,Uruguay,Syrian Arab Rep.,G / FI,11,11,9,10,0,0,*,11,9,5
+2015,Ireland,Syrian Arab Rep.,,,,*,,,,,,,0
+2015,Ukraine,Syrian Arab Rep.,U / FI,*,*,27,9,,0,7,16,12,12
+2015,Ukraine,Syrian Arab Rep.,G / JR,157,123,143,90,,19,*,111,189,183
+2015,Ukraine,Syrian Arab Rep.,G / FI,436,313,136,5,58,134,10,207,365,268
+2015,Uganda,Syrian Arab Rep.,G / FA,13,13,5,*,0,*,0,7,11,11
+2015,Turkey,Syrian Arab Rep.,U / RA,,,*,,,,*,*,0,0
+2015,Turkey,Syrian Arab Rep.,U / AR,14,14,,,,,,,14,14
+2015,Turkey,Syrian Arab Rep.,U / FI,283,283,,,,,,,283,283
+2015,Trinidad and Tobago,Syrian Arab Rep.,U / AR,*,*,,,,*,,*,0,
+2015,Trinidad and Tobago,Syrian Arab Rep.,U / FI,7,7,37,19,,,,19,25,25
+2015,Thailand,Syrian Arab Rep.,U / RA,,,*,,,,,,*,*
+2015,Thailand,Syrian Arab Rep.,U / FI,168,168,177,36,,,66,102,243,243
+2015,Togo,Syrian Arab Rep.,G / FI,6,6,*,*,,,,*,6,6
+2015,Chad,Syrian Arab Rep.,G / FA,20,20,7,5,,,,5,22,22
+2015,Sint Maarten (Dutch part),Syrian Arab Rep.,U / FI,,,*,,,,,,*,*
+2015,Sweden,Syrian Arab Rep.,G / AR,209,0,702,0,9,607,78,694,216,0
+2015,Sweden,Syrian Arab Rep.,G / RA,122,0,442,23,235,*,74,333,356,0
+2015,Sweden,Syrian Arab Rep.,G / FI,18680,0,50891,1903,16383,37,2046,20369,48714,0
+2015,Slovenia,Syrian Arab Rep.,G / RA,,,*,,,,,,,
+2015,Slovenia,Syrian Arab Rep.,G / FI,8,,16,*,9,*,5,16,9,0
+2015,Slovakia,Syrian Arab Rep.,G / RA,,,*,,,,,,,
+2015,Slovakia,Syrian Arab Rep.,G / FI,,,6,,7,*,7,17,,0
+2015,South Sudan,Syrian Arab Rep.,U / FI,*,*,*,*,,,0,*,0,0
+2015,Serbia,Syrian Arab Rep.,G / FI,237,237,301533,*,*,,301764,301770,0,
+2015,Somalia,Syrian Arab Rep.,U / FI,63,63,39,*,,,,*,101,101
+2015,El Salvador,Syrian Arab Rep.,G / FI,,,9,5,,,*,9,0,0
+2015,Senegal,Syrian Arab Rep.,G / FA,21,21,,,,,,,21,21
+2015,Sudan,Syrian Arab Rep.,G / FI,14,14,195,0,*,0,*,*,205,205
+2015,Sudan,Syrian Arab Rep.,U / FI,224,224,110,11,0,0,*,12,322,322
+2015,Saudi Arabia,Syrian Arab Rep.,U / FI,12,12,,,,,12,12,0,0
+2015,Russian Federation,Syrian Arab Rep.,G / TA,164,164,1124,0,695,395,0,1090,198,198
+2015,Russian Federation,Syrian Arab Rep.,G / FI,249,249,337,0,0,391,0,391,195,195
+2015,Romania,Syrian Arab Rep.,G / JR,*,*,,,*,*,,*,,
+2015,Romania,Syrian Arab Rep.,G / RA,,,5,,,,,,,
+2015,Romania,Syrian Arab Rep.,G / FI,112,112,541,144,195,229,8,576,96,96
+2015,Paraguay,Syrian Arab Rep.,G / FI,9,,55,27,,10,,37,27,16
+2015,Portugal,Syrian Arab Rep.,G / FI,,,,,,,,,15,
+2015,Poland,Syrian Arab Rep.,G / RA,,,9,,,,,,,
+2015,Poland,Syrian Arab Rep.,G / FI,34,,286,203,*,*,90,297,36,
+2015,Papua New Guinea,Syrian Arab Rep.,G / FI,*,0,0,*,,0,,*,*,
+2015,Philippines,Syrian Arab Rep.,G / FI,35,0,22,17,,,0,17,40,0
+2015,Peru,Syrian Arab Rep.,G / FI,*,,9,9,,,,9,*,*
+2015,Pakistan,Syrian Arab Rep.,U / FI,*,*,11,*,,0,,*,9,9
+2015,Oman,Syrian Arab Rep.,U / FI,6,6,0,,,,*,*,5,5
+2015,New Zealand,Syrian Arab Rep.,G / FI,6,0,13,16,,0,,16,*,0
+2015,Nauru,Syrian Arab Rep.,G / FI,8,0,0,*,,0,,*,*,0
+2015,Norway,Syrian Arab Rep.,G / RA,0,0,19,6,*,*,*,12,13,0
+2015,Norway,Syrian Arab Rep.,G / AR,49,0,265,6,15,235,9,265,46,0
+2015,Norway,Syrian Arab Rep.,G / FI,779,0,10517,1354,188,7,659,2208,9069,0
+2015,Netherlands,Syrian Arab Rep.,G / RA,6,,54,9,,29,,38,6,
+2015,Netherlands,Syrian Arab Rep.,G / FI,2317,,18677,7601,114,577,231,8523,12712,
+2015,Nigeria,Syrian Arab Rep.,G / FI,17,17,45,20,,,*,21,41,41
+2015,Niger,Syrian Arab Rep.,G / AR,*,*,,,,,,,*,*
+2015,Niger,Syrian Arab Rep.,G / FI,0,0,*,,,*,,*,0,0
+2015,Malaysia,Syrian Arab Rep.,U / AR,7,7,,,,*,6,7,0,0
+2015,Malaysia,Syrian Arab Rep.,U / FI,523,523,511,54,,,151,205,829,829
+2015,Mauritania,Syrian Arab Rep.,U / FA,54,54,239,184,,,*,186,107,107
+2015,Montenegro,Syrian Arab Rep.,G / FA,36,36,996,14,0,0,1018,1032,0,0
+2015,Malta,Syrian Arab Rep.,G / AR,,,17,6,*,6,,13,*,
+2015,Malta,Syrian Arab Rep.,G / FI,34,,398,17,265,*,16,299,156,0
+2015,Mali,Syrian Arab Rep.,G / FI,*,*,66,58,,,,58,9,9
+2015,The former Yugoslav Republic of Macedonia,Syrian Arab Rep.,G / FA,654,654,997,*,,*,1644,1648,*,*
+2015,Mexico,Syrian Arab Rep.,G / FI,,,7,5,,,*,7,0,0
+2015,Rep. of Moldova,Syrian Arab Rep.,G / FI,22,22,55,20,37,*,10,69,8,8
+2015,Morocco,Syrian Arab Rep.,U / FI,*,*,0,*,0,0,0,*,0,0
+2015,"China, Macao SAR",Syrian Arab Rep.,G / FI,*,0,,,,,,,*,0
+2015,Latvia,Syrian Arab Rep.,G / FI,17,0,6,0,13,0,7,20,*,0
+2015,Luxembourg,Syrian Arab Rep.,G / RA,,0,,,,,,,,0
+2015,Luxembourg,Syrian Arab Rep.,G / AR,*,0,10,,,,8,8,*,0
+2015,Luxembourg,Syrian Arab Rep.,G / FI,59,0,630,79,,*,20,100,588,0
+2015,Lithuania,Syrian Arab Rep.,G / FI,*,0,6,*,*,0,*,5,5,0
+2015,Sri Lanka,Syrian Arab Rep.,U / FI,5,5,7,*,,,,*,11,11
+2015,Liechtenstein,Syrian Arab Rep.,G / FI,,0,*,,,,,,*,0
+2015,Saint Lucia,Syrian Arab Rep.,U / FI,,,*,,,,*,*,*,*
+2015,Libya,Syrian Arab Rep.,U / FI,18556,18556,35,,,,,,18591,18591
+2015,Liberia,Syrian Arab Rep.,J / FI,*,*,*,,,,,,*,*
+2015,Lebanon,Syrian Arab Rep.,U / AR,*,*,*,*,,,,*,*,*
+2015,Lebanon,Syrian Arab Rep.,U / FI,413,413,9059,9062,,,399,9461,11,11
+2015,Kuwait,Syrian Arab Rep.,U / FI,7,7,,*,,,,*,6,6
+2015,Rep. of Korea,Syrian Arab Rep.,G / FA,64,19,404,*,142,,5,148,320,55
+2015,Cambodia,Syrian Arab Rep.,G / FI,*,*,*,,,,*,*,*,*
+2015,Kyrgyzstan,Syrian Arab Rep.,U / AR,*,*,0,0,0,0,*,*,0,0
+2015,Kyrgyzstan,Syrian Arab Rep.,G / FI,16,16,12,8,,5,10,23,5,5
+2015,Kyrgyzstan,Syrian Arab Rep.,U / FI,0,0,9,*,0,0,*,*,7,7
+2015,Kenya,Syrian Arab Rep.,J / FI,5,5,19,*,,,14,16,8,8
+2015,Kazakhstan,Syrian Arab Rep.,G / AR,24,24,*,,,,9,9,16,16
+2015,Kazakhstan,Syrian Arab Rep.,U / FI,*,*,5,7,,,*,9,0,0
+2015,Kazakhstan,Syrian Arab Rep.,G / FI,,,15,6,,9,,15,0,0
+2015,Japan,Syrian Arab Rep.,G / FI,6,*,5,*,5,*,,9,,0
+2015,Jordan,Syrian Arab Rep.,U / AR,0,0,*,0,0,0,*,*,0,0
+2015,Jordan,Syrian Arab Rep.,U / FI,0,0,7413,7367,0,0,46,7413,0,0
+2015,Jamaica,Syrian Arab Rep.,U / FI,,,*,,,,,,*,*
+2015,Italy,Syrian Arab Rep.,G / FI,331,0,506,255,73,253,*,583,246,
+2015,Iceland,Syrian Arab Rep.,G / FI,*,0,29,6,11,0,12,29,*,0
+2015,Iraq,Syrian Arab Rep.,U / FI,1225,1225,,*,394,,828,1225,0,0
+2015,Ireland,Syrian Arab Rep.,G / AR,*,,0,0,,*,0,*,0,0
+2015,Ireland,Syrian Arab Rep.,G / SP,*,,*,*,,0,*,*,*,0
+2015,Ireland,Syrian Arab Rep.,G / FI,7,,74,24,,0,9,33,50,0
+2015,India,Syrian Arab Rep.,U / FI,18,18,21,17,0,0,*,19,20,20
+2015,Indonesia,Syrian Arab Rep.,U / AR,*,*,,,,*,,*,0,0
+2015,Indonesia,Syrian Arab Rep.,U / FI,42,42,20,19,,,11,30,32,32
+2015,Hungary,Syrian Arab Rep.,G / RA,,,64081,,,,,,,
+2015,Hungary,Syrian Arab Rep.,G / FI,823,,64587,19,140,108,46902,47169,18607,685
+2015,Haiti,Syrian Arab Rep.,U / FI,,,*,,,,,,*,
+2015,Croatia,Syrian Arab Rep.,G / FI,6,6,24,,*,*,22,26,*,*
+2015,"China, Hong Kong SAR",Syrian Arab Rep.,U / FI,*,0,,,,,,,*,0
+2015,Grenada,Syrian Arab Rep.,U / FI,,,*,*,,,,*,0,0
+2015,Greece,Syrian Arab Rep.,G / RA,,,177,,,,,,,
+2015,Greece,Syrian Arab Rep.,G / AR,7,,*,*,,*,,*,*,
+2015,Greece,Syrian Arab Rep.,G / FI,175,,3316,2779,7,6,277,3069,445,
+2015,Ghana,Syrian Arab Rep.,G / FI,73,73,20,42,,*,,44,49,49
+2015,Georgia,Syrian Arab Rep.,G / JR,*,*,*,,*,*,,*,*,*
+2015,Georgia,Syrian Arab Rep.,G / FI,30,30,20,5,22,9,9,45,5,5
+2015,United Kingdom,Syrian Arab Rep.,G / AR,,,190,34,,55,*,92,,
+2015,United Kingdom,Syrian Arab Rep.,G / RA,,,6,0,0,0,*,*,,
+2015,United Kingdom,Syrian Arab Rep.,G / FI,1329,,2846,2011,42,213,250,2516,1648,
+2015,Gabon,Syrian Arab Rep.,G / FA,*,*,*,,*,,,*,*,*
+2015,France,Syrian Arab Rep.,G / RA,,,12,,,,,,,
+2015,France,Syrian Arab Rep.,G / AR,80,,278,90,6,104,10,210,169,
+2015,France,Syrian Arab Rep.,G / FI,1159,,5124,1587,735,74,,2396,2542,
+2015,Finland,Syrian Arab Rep.,G / RA,,0,*,0,0,0,0,,0,0
+2015,Finland,Syrian Arab Rep.,G / FI,55,0,836,106,21,*,55,184,705,0
+2015,Ethiopia,Syrian Arab Rep.,J / FI,8,8,16,9,,,,9,15,15
+2015,Estonia,Syrian Arab Rep.,G / FI,*,0,9,0,0,13,*,14,0,0
+2015,Spain,Syrian Arab Rep.,G / FI,781,,5724,,,,,,3280,
+2015,Egypt,Syrian Arab Rep.,U / FI,,,2415,2415,,,,2415,0,
+2015,Algeria,Syrian Arab Rep.,U / RA,9,9,12,,,,*,*,17,17
+2015,Algeria,Syrian Arab Rep.,U / FI,4099,4099,2111,,,,16,16,6194,6194
+2015,Dominican Rep.,Syrian Arab Rep.,G / FI,*,*,5,,,,5,5,*,*
+2015,Denmark,Syrian Arab Rep.,G / AR,80,0,115,42,*,102,,148,30,0
+2015,Denmark,Syrian Arab Rep.,G / FI,1388,0,8608,4167,1550,111,,5828,795,0
+2015,Djibouti,Syrian Arab Rep.,G / FI,*,*,*,*,,,*,7,0,0
+2015,Germany,Syrian Arab Rep.,G / JR,8393,,,227,15,50,3546,3838,3670,0
+2015,Germany,Syrian Arab Rep.,G / RA,850,,3853,3481,85,*,116,3683,1553,
+2015,Germany,Syrian Arab Rep.,G / NA,20348,0,158657,97656,197,22,4062,101937,76359,0
+2015,Czech Rep.,Syrian Arab Rep.,G / RA,,,5,,,,,,,
+2015,Czech Rep.,Syrian Arab Rep.,G / FI,55,0,129,29,101,,20,150,42,0
+2015,Cyprus,Syrian Arab Rep.,G / RA,,,42,,,,,,42,
+2015,Cyprus,Syrian Arab Rep.,U / FA,*,*,50,54,,,,54,0,
+2015,Cyprus,Syrian Arab Rep.,G / AR,276,,29,14,202,*,23,243,62,*
+2015,Cyprus,Syrian Arab Rep.,G / FI,1069,,908,33,1356,,100,1489,488,135
+2015,Cayman Islands,Syrian Arab Rep.,G / FI,,,*,*,,,,*,0,0
+2015,Cura̤ao,Syrian Arab Rep.,U / FI,,,*,,,,,,*,*
+2015,Cuba,Syrian Arab Rep.,U / FA,0,0,26,22,,,*,26,0,0
+2015,Costa Rica,Syrian Arab Rep.,G / FI,*,*,*,*,,,,*,*,*
+2015,Colombia,Syrian Arab Rep.,G / FI,*,*,7,*,,,6,9,0,0
+2015,Congo,Syrian Arab Rep.,G / FA,,,8,*,,,,*,*,*
+2015,Dem. Rep. of the Congo,Syrian Arab Rep.,G / FI,*,*,5,7,0,0,0,7,0,0
+2015,Cameroon,Syrian Arab Rep.,U / RA,,,*,,,,,,*,*
+2015,Cameroon,Syrian Arab Rep.,U / FI,11,11,11,13,,,*,15,7,7
+2015,C̫te d'Ivoire,Syrian Arab Rep.,J / FA,16,16,9,17,,,,17,8,8
+2015,China,Syrian Arab Rep.,U / FI,*,*,32,9,,,,9,24,24
+2015,Chile,Syrian Arab Rep.,G / FI,10,6,8,7,,,,7,11,*
+2015,Switzerland,Syrian Arab Rep.,G / FI,3309,0,4745,1309,1972,421,122,3824,4462,0
+2015,Canada,Syrian Arab Rep.,G / AR,7,,9,*,,8,,10,8,
+2015,Canada,Syrian Arab Rep.,G / FI,177,,544,551,,13,6,570,227,
+2015,Central African Rep.,Syrian Arab Rep.,G / FI,8,8,,,,,,,8,8
+2015,Brazil,Syrian Arab Rep.,G / FI,76,76,1610,532,,0,,532,1154,592
+2015,Bolivia (Plurinational State of),Syrian Arab Rep.,G / FI,,,*,*,,,,*,0,
+2015,Belarus,Syrian Arab Rep.,G / JR,0,0,*,0,0,0,*,*,0,0
+2015,Belarus,Syrian Arab Rep.,G / FI,48,42,103,16,50,22,56,144,7,7
+2015,Bosnia and Herz.,Syrian Arab Rep.,G / FI,*,*,5,,*,,,*,*,*
+2015,Bulgaria,Syrian Arab Rep.,G / RA,,,33,,,,,,,
+2015,Bulgaria,Syrian Arab Rep.,G / FI,2510,2510,5950,4520,802,66,2042,7430,1683,1683
+2015,Belgium,Syrian Arab Rep.,G / JR,,0,23,*,,15,*,21,6,0
+2015,Belgium,Syrian Arab Rep.,G / RA,,,122,,,,8,8,,
+2015,Belgium,Syrian Arab Rep.,G / FI,727,0,10293,3443,430,57,27,3957,3864,0
+2015,Azerbaijan,Syrian Arab Rep.,G / FI,0,0,5,0,0,*,0,*,*,*
+2015,Azerbaijan,Syrian Arab Rep.,U / FI,7,7,6,6,,0,0,6,7,7
+2015,Austria,Syrian Arab Rep.,G / RA,,,195,,,,,,,
+2015,Austria,Syrian Arab Rep.,G / FA,4872,,24352,8114,183,752,1213,10262,18669,0
+2015,Australia,Syrian Arab Rep.,G / AR,*,0,*,0,,*,*,*,*,0
+2015,Australia,Syrian Arab Rep.,G / FI,180,0,87,*,,113,7,123,129,0
+2015,Antigua and Barbuda,Syrian Arab Rep.,J / FI,,,15,15,,,,15,0,0
+2015,Armenia,Syrian Arab Rep.,U / FI,,,*,,,,,,*,*
+2015,Armenia,Syrian Arab Rep.,G / FI,9,9,103,87,,,14,101,11,11
+2015,Argentina,Syrian Arab Rep.,G / FI,22,,159,55,,19,9,83,98,9
+2015,United Arab Emirates,Syrian Arab Rep.,U / AR,12,12,121,18,,,6,24,109,109
+2015,Albania,Syrian Arab Rep.,G / FI,8,8,71,,,,79,79,0,0
+2015,Anguilla,Syrian Arab Rep.,J / FI,,,*,*,,,,*,0,
