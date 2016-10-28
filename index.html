@@ -86,6 +86,9 @@
 
     // get color depending on population density value
     function getColor(d) {
+        if(isNaN(d)) {
+            return "none";
+        };
         return  d > legend_units[option][6] ? '#800026' :
                 d > legend_units[option][5]  ? '#BD0026' :
                 d > legend_units[option][4]  ? '#E31A1C' :
