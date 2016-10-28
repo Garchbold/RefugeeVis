@@ -19,9 +19,16 @@
 
     <div id="options"> 
         <form>
+             <input type="radio" name="options" id="totalRefugees" value="Refugees" data_value="totalRefugees" > Total amount of refugees in 2015 <br>
              <input type="radio" name="options" id="population" value="Population" data_value="pop_est" > Population <br>
              <input type="radio" name="options" value="GDP" data_value="gdp_md_est" checked> Country GDP <br>
              <input type="radio" name="options" value="Asylum Seekers" data_value="applied"> Asylum Seekers <br>
+             <input type="radio" name="options" value="Seekers/Recognized" data_value="recSeek" > Seekers for each one recognized <br>
+             <input type="radio" name="options" value="Seekers/Rejected" data_value="rejSeek" > Seekers for each one rejected <br>
+             <input type="radio" name="options" value="Person/Seeker" data_value="seekPer" > Amount of people in the country for each asylum seeker <br>
+             <input type="radio" name="options" value="GDP/Seeker" data_value="seekGDP" > GDP for each asylum seeker <br>
+             <input type="radio" name="options" value="Person/Refugee" data_value="totalPer" > Amount of people in the counry for each refugee <br>
+             <input type="radio" name="options" value="GDP/Refugee" data_value="totalGDP" > GDP for each refugee in the country <br>
         </form>
     </div>
     <div id="graph"> </div>
@@ -43,8 +50,26 @@
 
     var graphcountries = [];
 
-    var units={"Population": "people", "GDP": "millions of dollars", "Asylum Seekers": "refugees"};
-    var legend_units={"Population": [1000000, 2500000, 5000000, 10000000, 25000000, 50000000, 100000000], "GDP": [10000, 50000, 100000, 250000, 500000], "Asylum Seekers": [1000, 2500, 5000, 10000, 20000, 50000]};
+    var units={"Population": "people",
+               "GDP": "millions of dollars",
+               "Asylum Seekers": "refugees",
+               "Seekers/Recognized": "seekers/recognized",
+               "Refugees": "refugees",
+               "Seekers/Rejected": "seekers/rejected",
+               "Person/Seeker": "person/seeker",
+               "GDP/Seeker": "GDP/seeker",
+               "Person/Refugee": "person/refugee",
+               "GDP/Refugee": "GDP/refugee"};
+    var legend_units={"Population": [1000000, 2500000, 5000000, 10000000, 25000000, 50000000, 100000000],
+                      "GDP": [10000, 50000, 100000, 250000, 500000],
+                      "Seekers/Recognized": [1, 3, 10, 20, 50, 100],
+                      "Refugees": [10000, 50000, 100000, 250000, 500000],
+                      "Seekers/Rejected": [0, 10, 50, 100, 500, 1000],
+                      "Person/Seeker": [0, 100, 500, 1000, 5000],
+                      "GDP/Seeker": [0, 10, 50, 100, 500, 1000],
+                      "Person/Refugee": [0, 100, 500, 1000, 5000],
+                      "GDP/Refugee": [0, 10, 50, 100, 500, 1000],
+                      "Asylum Seekers": [1000, 2500, 5000, 10000, 20000, 50000]};
 
 
 
@@ -135,7 +160,7 @@
 
         //BUILD THE GRAPH
         var margin = {top: 50, right: 20, bottom: 70, left: 40},
-            width = 600 - margin.left - margin.right,
+            width = 450 - margin.left - margin.right,
             height = 300 - margin.top - margin.bottom;
 
 
@@ -150,9 +175,12 @@
             .orient("bottom")
 
 
+        var formatAxis = d3.format('.0f');
+
         var yAxis = d3.svg.axis()
             .scale(y)
             .orient("left")
+            .tickFormat(formatAxis)
             .ticks(10);
 
 

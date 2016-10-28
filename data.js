@@ -141,3 +141,14 @@ for(i = 0; i < geo.features.length; i++) {
         }
     }
 }
+
+//calculated values for the graph
+var i, n;
+for(i = 0; i < geo.features.length; i++) {
+    newgeo.features[i].properties.recSeek = parseInt(newgeo.features[i].properties.applied / newgeo.features[i].properties.recognized);
+    newgeo.features[i].properties.rejSeek = parseInt(newgeo.features[i].properties.applied / newgeo.features[i].properties.rejected);
+    newgeo.features[i].properties.seekPer = parseInt(newgeo.features[i].properties.pop_est / newgeo.features[i].properties.applied);
+    newgeo.features[i].properties.seekGDP = parseInt(newgeo.features[i].properties.gdp_md_est / newgeo.features[i].properties.applied);
+    newgeo.features[i].properties.totalPer = parseInt(newgeo.features[i].properties.pop_est / newgeo.features[i].properties.totalRefugees);
+    newgeo.features[i].properties.totalGDP = parseInt(newgeo.features[i].properties.gdp_md_est / newgeo.features[i].properties.totalRefugees);
+}
